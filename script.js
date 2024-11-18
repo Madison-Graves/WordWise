@@ -58,7 +58,9 @@ const randomMessage = () => {
     let theme = themeArray[Math.floor(Math.random() * themeArray.length)];
     let randomObj = theme[Math.floor(Math.random() * theme.length)];
 
-   
+    if(randomObj){
+        return `Today's Focus is ${randomObj._theme}\n \nLet's look at ${randomObj._verse}-\n"${randomObj._qoute}"\n \nThis verse reminds us ${randomObj._meaning} `;
+    }
     
 };
 
