@@ -33,5 +33,5 @@ The WordWise generator draws from three main themes:
    git clone https://github.com/Madison-Graves/wordwise.git
 
 ## 🙏 Acknowledgments
-Solo-Project by Madison Graves
+Solo-Project by Madison Graves,
 Thanks to all those who inspire through their faith!
