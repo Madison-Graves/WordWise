@@ -34,7 +34,23 @@ const forgiveness = [{_theme:'forgiveness',
                         _qoute: "Be kind and compassionate to one another, forgiving each other, just as in Christ God forgave you.",
                         _meaning: "that forgiveness should come from a heart of compassion and kindness, reflecting God's forgiveness toward us through Christ."
                     }];
+
+ console.log(forgiveness);
+
+const encouragement = [{_theme: 'encouragement',
+                        _verse: 'Isaiah 41:10',
+                        _qoute: "So do not fear, for I am with you; do not be dismayed, for I am your God. I will strengthen you and help you; I will uphold you with my righteous right hand.",
+                        _meaning: "that God is always with us, offering strength and support, no matter what we're going through."
+                    },{_theme: 'encouragement',
+                        _verse: 'Romans 8:28',
+                        _qoute: "And we know that in all things God works for the good of those who love him, who have been called according to his purpose.",
+                        _meaning: "us that God is working for our good in every situation, even when we can’t see the full picture."
+                    },{_theme:'encouragement',
+                        _verse: 'Philippians 4:13',
+                        _qoute: "I can do all this through him who gives me strength.",
+                        _meaning: "us to trust in God's strength, knowing that with His help, we can face any challenge that comes our way."
+                    }];
+
 /*
-const encouragement = [{},{},{}];
 const messageObj = {};
 */
