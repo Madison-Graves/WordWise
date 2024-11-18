@@ -52,7 +52,14 @@ const encouragement = [{_theme: 'encouragement',
 
 
 const themeArray = [anxiety, forgiveness, encouragement]
-console.log(themeArray);
+
+
+const randomMessage = () => {
+   
+    
+};
+
+console.log(randomMessage());
 /*
 const messageObj = {};
 */
