@@ -1,4 +1,3 @@
-console.log("my java is working");
 
 const anxiety = [{_theme:'Anxiety',
                     _verse: 'Matthew 6:34',
@@ -16,7 +15,7 @@ const anxiety = [{_theme:'Anxiety',
                     _meaning: 'that we don’t have to fear or be anxious, because God is always with us, ready to strengthen and support us through any situation.'
                 }];
 
-console.log(anxiety);
+
 
 
 const forgiveness = [{_theme:'forgiveness',
@@ -35,7 +34,7 @@ const forgiveness = [{_theme:'forgiveness',
                         _meaning: "that forgiveness should come from a heart of compassion and kindness, reflecting God's forgiveness toward us through Christ."
                     }];
 
- console.log(forgiveness);
+
 
 const encouragement = [{_theme: 'encouragement',
                         _verse: 'Isaiah 41:10',
@@ -51,6 +50,9 @@ const encouragement = [{_theme: 'encouragement',
                         _meaning: "us to trust in God's strength, knowing that with His help, we can face any challenge that comes our way."
                     }];
 
+
+const themeArray = [anxiety, forgiveness, encouragement]
+console.log(themeArray);
 /*
 const messageObj = {};
 */
