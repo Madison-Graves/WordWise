@@ -8,6 +8,13 @@
 - Displays the selected Bible verse.
 - Provides a reflection on the verse's meaning.
 
+## 🌟 Example Output
+💗 Today's Focus is Anxiety 💗
+
+📖 MATTHEW 6:34 Says: "Therefore do not worry about tomorrow, for tomorrow will worry about itself. Each day has enough trouble of its own."
+
+💡 Reflection 💡 This verse reminds us to focus on the present and trust that God will provide for each day, rather than being overwhelmed by future worries.
+
 ## 📖 Themes
 The WordWise generator draws from three main themes:
 
@@ -20,15 +27,11 @@ The WordWise generator draws from three main themes:
 - Node.Js 
 - Visual Studio Code
 
-## 🌟 Example Output
-💗 Today's Focus is Anxiety 💗
-
-📖 MATTHEW 6:34 Says: "Therefore do not worry about tomorrow, for tomorrow will worry about itself. Each day has enough trouble of its own."
-
-💡 Reflection 💡 This verse reminds us to focus on the present and trust that God will provide for each day, rather than being overwhelmed by future worries.
-
 ## ⚙️ Usage
 1. Clone this repository to your local machine:
    ```bash
    git clone https://github.com/Madison-Graves/wordwise.git
 
+## 🙏 Acknowledgments
+Solo-Project by Madison Graves
+Thanks to all those who inspire through their faith!
