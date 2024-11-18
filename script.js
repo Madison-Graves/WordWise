@@ -56,6 +56,8 @@ const themeArray = [anxiety, forgiveness, encouragement]
 
 const randomMessage = () => {
     let theme = themeArray[Math.floor(Math.random() * themeArray.length)];
+    let randomObj = theme[Math.floor(Math.random() * theme.length)];
+
    
     
 };
