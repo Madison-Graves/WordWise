@@ -59,7 +59,7 @@ const randomMessage = () => {
     let randomObj = theme[Math.floor(Math.random() * theme.length)];
 
     document.getElementById('theme').innerHTML = `${randomObj._theme.toUpperCase()}`; 
-    document.getElementById('qoute').innerHTML = `${randomObj._qoute}`;
+    document.getElementById('qoute').innerHTML = `" ${randomObj._qoute} "`;
     document.getElementById('verse').innerHTML = `${randomObj._verse}`;
     document.getElementById('reflection').innerHTML = `${randomObj._meaning}`;
     
