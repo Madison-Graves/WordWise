@@ -3,6 +3,14 @@
     <p>WordWise is a JavaScript-based project that randomly selects a Bible verse from a set of themes: **Anxiety**, **Forgiveness**, and **Encouragement**. The app displays the verse, its quote, and a reflective meaning to inspire and encourage users.</p>
 </div> 
 
+---
+
+## 💻 Live App
+
+https://madison-graves.github.io/WordWise/
+
+
+---
 ## 🚀Features
 - Randomly selects a theme: Anxiety, Forgiveness, or Encouragement.
 - Displays the selected Bible verse.
@@ -30,7 +38,7 @@ The WordWise generator draws from three main themes:
 ## ⚙️ Usage
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/Madison-Graves/wordwise.git
+   git clone https://github.com/Madison-Graves/WordWise.git
 
 ## 🙏 Acknowledgments
 Solo-Project by Madison Graves,
