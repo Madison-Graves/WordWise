@@ -19,7 +19,27 @@ h1{
     font-size: 5rem;
 }
 
-#message{
+.instruction-title{
+    text-align: center;
+    margin:2rem;
+}
+
+.instruction > p {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.button-container {
+    display: grid;              /* Enable Grid */
+    place-items: center;        /* Center horizontally and vertically */
+}
+button{
+    height:2rem;
+    width: 30vw;
+    color:red;
+}
+
+.message-container{
     background-color: white;
     color:black;
     padding: 2rem;
