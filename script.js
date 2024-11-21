@@ -58,28 +58,15 @@ const randomMessage = () => {
     let theme = themeArray[Math.floor(Math.random() * themeArray.length)];
     let randomObj = theme[Math.floor(Math.random() * theme.length)];
 
-    if(randomObj){
-        return `💗 Today's Focus is ${randomObj._theme} 💗<br><br>📖 ${randomObj._verse.toUpperCase()} Says:<br>"${randomObj._qoute}"<br><br>💡 Reflection 💡<br>This verse reminds us ${randomObj._meaning} `;
-    }
-    
+    document.getElementById('theme').innerHTML = `${randomObj._theme.toUpperCase()}`; 
+    document.getElementById('qoute').innerHTML = `${randomObj._qoute}`;
+    document.getElementById('verse').innerHTML = `${randomObj._verse}`;
+    document.getElementById('reflection').innerHTML = `${randomObj._meaning}`;
     
 };
 
-console.log(randomMessage());
+document.getElementById('button').addEventListener('click',randomMessage);
  
-let myMessage = document.getElementById('message');
-let instruction = document.getElementById('how-to');
-let button = document.getElementById('button');
-let newInstruct = document.getElementById('after-press');
-newInstruct.hidden = true;
-myMessage.hidden = true;
-console.log(myMessage);
-console.log(instruction);
-console.log(button);
 
-button.onclick = () => {
-    myMessage.style.textAlign = 'center';
-    myMessage.innerHTML = randomMessage();
-    myMessage.hidden = false;
-    newInstruct.hidden = false;
-};
+
+

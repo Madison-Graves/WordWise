@@ -7,27 +7,26 @@
     <title>WordWise</title>
 </head>
 <body>
-    <header class="header">
+    <header>
         <h1>WordWise</h1>
+        <p>Your daily does of inspiration and faith</p>
     </header>
-    <main>
-        <div class= "instruction" id="how-to">
-        <h2 class="instruction-title">Instructions:</h2>
-        <p>Press my button and I will randomly select a Bible verse, its quote, and give a reflective meaning to inspire and encourage you.</p>
-        <h3>The main themes I focus on are: </h3>
-            <ol>
-                <li>Anxiety</li>
-                <li>Forgiveness</li> 
-                <li>Encouragement</li>
-            </ol>
-        </div>
-        <div class="button-container">
-        <button id="button">PRESS ME</button>
-        </div>
-        <div class="message-container" id="message"></div>
-        <p id="after-press">Press my button again to get a new message</p>
-    </main>
-    <footer>Created By: Madison Graves</footer>
+    <div id="app-container">
+        <main>
+            <div>
+                <h2>Today's Focus is:</h2>
+                <h2 id="theme"></h2>
+            </div>
+            <blockquote id="qoute"></blockquote>
+            <p id="verse"></p>
+            <div id="reflection-container">
+                <h2>💡Reflection:</h2>
+                <p id="reflection"></p>
+            </div>
+        </main>
+        <button id="button">Get Verse</button>
+    </div>
+    <footer id="footer">By: Madison Graves</footer>
     <script src="script.js"  defer></script>
 </body>
 </html>
