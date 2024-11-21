@@ -72,6 +72,7 @@ let instruction = document.getElementById('how-to');
 let button = document.getElementById('button');
 let newInstruct = document.getElementById('after-press');
 newInstruct.hidden = true;
+myMessage.hidden = true;
 console.log(myMessage);
 console.log(instruction);
 console.log(button);
@@ -79,5 +80,6 @@ console.log(button);
 button.onclick = () => {
     myMessage.style.textAlign = 'center';
     myMessage.innerHTML = randomMessage();
+    myMessage.hidden = false;
     newInstruct.hidden = false;
 };
