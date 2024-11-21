@@ -79,6 +79,5 @@ console.log(button);
 button.onclick = () => {
     myMessage.style.textAlign = 'center';
     myMessage.innerHTML = randomMessage();
-    instruction.hidden = true;
     newInstruct.hidden = false;
 };
