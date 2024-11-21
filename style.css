@@ -18,3 +18,10 @@ h1{
     text-align: center;
     font-size: 5rem;
 }
+
+#message{
+    background-color: white;
+    color:black;
+    padding: 2rem;
+    margin: 2rem;
+}
